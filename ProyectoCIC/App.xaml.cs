@@ -11,7 +11,12 @@ namespace ProyectoCIC
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            var navigationPage = new NavigationPage(new MainPage());
+            navigationPage.BarBackgroundColor = Color.Black;
+            navigationPage.BarTextColor = Color.White;
+            MainPage = navigationPage; 
+
+            //MainPage =new  MainPage();
         }
 
         protected override void OnStart()

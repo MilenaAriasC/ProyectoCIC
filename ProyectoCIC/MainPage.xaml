@@ -1,7 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ProyectoCIC" x:Class="ProyectoCIC.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+<StackLayout Padding="0,0,0,0" 
+                     Spacing="0" 
+                     BackgroundColor="#cceaeb">
+            <BoxView BackgroundColor="#fff" 
+                     HeightRequest="1">
+            </BoxView>
+            <Label Text=""
+                   VerticalOptions="Fill" 
+                   BackgroundColor="#004c5a" 
+                   HeightRequest="100">
+            </Label>
+                 <BoxView BackgroundColor="#fff" 
+                     HeightRequest="1">
+            </BoxView>
+            <Label Text=" Centro Instrucción Combita Auxiliares Bachilleres"
+                 
+                   BackgroundColor="#cceaeb"
+                   TextColor="Black"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   HeightRequest="100"
+                   Margin="0,60,0,0"
+                   />
+            
+       
+       <Button x:Name="btnentrar" 
+            Image="Escudosinfondo.png"
+               Margin="0,50,0,0"/>
+             
+              
+        <BoxView BackgroundColor="#fff" 
+                     HeightRequest="0">
+            </BoxView>
+            <Label Text=""
+                   VerticalOptions="EndAndExpand" 
+                   BackgroundColor="#004c5a" 
+                   HeightRequest="100">
+            </Label>
     </StackLayout>
+
 </ContentPage>

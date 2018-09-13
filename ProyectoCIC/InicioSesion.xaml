@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ProyectoCIC.InicioSesion">
+  
+
+ <StackLayout Padding="0,0,0,0" 
+                     Spacing="0" 
+                     BackgroundColor="#cceaeb">
+            <BoxView BackgroundColor="#004c5a" 
+                     HeightRequest="1">
+            </BoxView>
+            <Label Text=""
+                   VerticalOptions="Fill" 
+                   BackgroundColor="#004c5a" 
+                   HeightRequest="100">
+            </Label>
+            <Button WidthRequest="100" 
+                    HeightRequest="100"
+                    BorderRadius="50" 
+                    HorizontalOptions="Center" 
+                    BackgroundColor="Green">
+            </Button>
+            <StackLayout>
+            <Label Text="Bienvenido" 
+            FontSize="Medium"
+            HorizontalTextAlignment="Center"
+            TextColor="Purple"
+            Font="25">
+            </Label>
+             
+              
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="5,10,5,0">
+            <Label Text="Usuario"
+                    HorizontalOptions="FillAndExpand"
+                     WidthRequest="100"/> 
+             
+            <Entry 
+                Placeholder="Ingrese Usuario     "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+               <StackLayout Orientation="Horizontal"  Padding="5,10,5,0" >
+            <Label Text="Contraseña"
+                   HorizontalOptions="FillAndExpand" 
+                   WidthRequest="100"/> 
+            <Entry 
+                Placeholder="Ingrese Contraseña"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+               />
+            </StackLayout>
+
+        </StackLayout>
+</ContentPage>
